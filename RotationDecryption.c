@@ -1,10 +1,10 @@
 #include <stdio.h>
 int main() {
     
-    char input[] = "LCOKG";
-    int n = 5;
+    char input[] = "PGSOK";
+    int n = 6;
     int counter;
-    int key = 2;
+    int key = 6;
     for(counter = 0; counter<n; counter++){
         input[counter]= (input[counter] - key);
         if(input[counter]>90){
